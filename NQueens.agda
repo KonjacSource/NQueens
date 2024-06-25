@@ -40,10 +40,6 @@ module For (n : ℕ) where
   _≟ᵖ_ : (p q : Pos) → (Dec (p ≡ q))
   _≟ᵖ_ = ≟-× _≟_ _≟_ 
 
-  -- _≟ᵖ_ : (p : Pos) → (q : Pos) → Dec (p ≡ q)
-  -- (x , y) ≟ (x′ , y′) with x ≟ y 
-  -- ...                    | no ¬a = ? 
-  -- ...                    | yes a = ?
   {-
         + – – – – – – – → x
         |
